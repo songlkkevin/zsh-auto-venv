@@ -1,4 +1,4 @@
-## auto-venv (zsh plugin)
+## zsh-auto-venv (zsh plugin)
 
 Automatically detect and activate the nearest Python virtual environment when changing directories in zsh.
 
@@ -16,7 +16,7 @@ Add this to your `.zshrc`:
 
 ```zsh
 # If this repo is local, use local bundle
-antigen bundle /path-to-dir/auto-venv
+antigen bundle /path-to-dir/zsh-auto-venv
 
 # Or install from GitHub (recommended):
 antigen bundle songlkkevin/zsh-auto-venv
@@ -24,7 +24,7 @@ antigen bundle songlkkevin/zsh-auto-venv
 antigen apply
 ```
 
-The plugin file is `auto-venv.plugin.zsh`, so antigen will auto-load it.
+The plugin file is `zsh-auto-venv.plugin.zsh`, so antigen will auto-load it.
 
 ### Configuration
 
