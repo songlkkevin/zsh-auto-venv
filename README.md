@@ -19,7 +19,7 @@ Add this to your `.zshrc`:
 antigen bundle /path-to-dir/auto-venv
 
 # Or install from GitHub (recommended):
-# antigen bundle songlkkevin/zsh-auto-venv
+antigen bundle songlkkevin/zsh-auto-venv
 
 antigen apply
 ```
